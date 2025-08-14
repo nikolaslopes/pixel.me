@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+.next/
+
+# Configuration files
+package.json
+package-lock.json
+.lintstagedrc.json
+
+# Environment files
+.env*
+
+# Build outputs
+dist/
+build/
