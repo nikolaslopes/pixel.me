@@ -1,0 +1,41 @@
+{
+  "header": {
+    "title": "pixel.me",
+    "subtitle": "ワンクリックで画像をピクセルアートに変換"
+  },
+  "upload": {
+    "title": "クリックして画像を選択",
+    "description": "PNG, JPG, GIF, WebP 最大10MB • 透明度対応"
+  },
+  "settings": {
+    "title": "設定",
+    "reset": "リセット",
+    "newImage": "新しい画像",
+    "pixelSize": "ピクセルサイズ",
+    "colorReduction": "減色",
+    "brightness": "明るさ",
+    "contrast": "コントラスト",
+    "saturation": "彩度",
+    "dithering": "ディザリング",
+    "ditheringOn": "有効",
+    "ditheringOff": "無効",
+    "presets": "プリセット",
+    "tooltips": {
+      "pixelSize": "画像内の各カラー「ブロック」のサイズを定義します。値を大きくするとより抽象的でレトロな外観になり、値を小さくすると詳細が保持されます。",
+      "colorReduction": "最終的な画像の色数を制限して、レトロなビデオゲーム風の外観（例：8ビット、16ビット）を作成します。",
+      "brightness": "画像の全体的な明るさを調整します。値を上げると色が明るくなり、下げると暗くなります。",
+      "contrast": "明るい領域と暗い領域の差を増減させます。コントラストを高くすると、色がより鮮やかで明確になります。",
+      "saturation": "色の「純度」または強度を制御します。値を低くすると画像が灰色がかり（白黒）、高くすると色が鮮やかになります。",
+      "dithering": "ピクセルパターンを使用して中間色をシミュレートし、グラデーションを滑らかにするデジタルアート技法。古いコンソールゲームで一般的な、クラシックでノスタルジックな外観を作り出します。"
+    }
+  },
+  "results": {
+    "originalImage": "元の画像",
+    "pixelArt": "ピクセルアート",
+    "download": "ダウンロード",
+    "processing": "画像を処理中..."
+  },
+  "footer": {
+    "developedBy": "開発者"
+  }
+}

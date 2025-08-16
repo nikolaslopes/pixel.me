@@ -1,0 +1,41 @@
+{
+  "header": {
+    "title": "pixel.me",
+    "subtitle": "Transforme suas imagens em pixel art com um clique"
+  },
+  "upload": {
+    "title": "Clique para selecionar uma imagem",
+    "description": "PNG, JPG, GIF, WebP até 10MB • Suporte a transparência"
+  },
+  "settings": {
+    "title": "Configurações",
+    "reset": "Resetar",
+    "newImage": "Nova Imagem",
+    "pixelSize": "Tamanho do Pixel",
+    "colorReduction": "Redução de Cores",
+    "brightness": "Brilho",
+    "contrast": "Contraste",
+    "saturation": "Saturação",
+    "dithering": "Dithering",
+    "ditheringOn": "Ativado",
+    "ditheringOff": "Desativado",
+    "presets": "Presets",
+    "tooltips": {
+      "pixelSize": "Define o tamanho de cada 'bloco' de cor na imagem. Valores maiores criam um visual mais abstrato e retrô, enquanto valores menores mantêm mais detalhes.",
+      "colorReduction": "Limita o número total de cores na imagem. Menos cores resulta em um visual clássico de videogame (ex: 8-bit, 16-bit).",
+      "brightness": "Ajusta o brilho geral da imagem. Aumente para clarear as cores e diminuia para escurecê-las.",
+      "contrast": "Aumenta ou diminui a diferença entre as áreas claras e escuras. Um contraste maior torna as cores mais intensas e definidas.",
+      "saturation": "Controla a 'pureza' ou intensidade das cores. Valores baixos deixam a imagem acinzentada (preto e branco), enquanto valores altos tornam as cores mais vivas.",
+      "dithering": "Uma técnica de arte digital que usa padrões de pixels para simular tons intermediários e suavizar gradientes. Cria um visual clássico e nostálgico, muito comum em jogos de consoles antigos."
+    }
+  },
+  "results": {
+    "originalImage": "Imagem Original",
+    "pixelArt": "Pixel Art",
+    "download": "Download",
+    "processing": "Processando imagem..."
+  },
+  "footer": {
+    "developedBy": "Desenvolvido por"
+  }
+}
