@@ -17,6 +17,7 @@ export const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="font-semibold text-white transition-colors hover:text-pink-400 hover:underline"
           >
+            {' '}
             @nikolaslopes
           </a>
         </p>
