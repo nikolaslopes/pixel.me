@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
 
   return (
     <header className="mb-8 flex justify-between">
-      <div></div>
+      <div className="hidden md:block"></div>
       <div className="flex flex-col">
         <h1 className="font-pixelify mb-2 flex items-center gap-3 text-3xl text-white md:justify-center md:text-5xl">
           <Palette className="size-8 text-pink-400 md:size-12" />
