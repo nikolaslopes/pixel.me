@@ -1,5 +1,3 @@
-'use client';
-
 import React, { ChangeEvent } from 'react';
 import { HelpCircle } from 'lucide-react';
 import * as Tooltip from '@radix-ui/react-tooltip';
