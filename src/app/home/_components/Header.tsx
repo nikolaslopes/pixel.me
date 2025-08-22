@@ -15,7 +15,9 @@ export const Header: React.FC = () => {
           <Palette className="size-8 text-pink-400 md:size-12" />
           {t('header.title')}
         </h1>
-        <p className="text-md text-sm text-blue-200 md:text-lg">{t('header.subtitle')} :))</p>
+        <p className="text-md text-sm text-blue-200 md:text-lg">
+          {t('header.subtitle')} {':))'}
+        </p>
       </div>
 
       <div>
