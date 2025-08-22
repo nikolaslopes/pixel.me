@@ -5,7 +5,7 @@
   },
   "upload": {
     "title": "クリックして画像を選択",
-    "description": "PNG, JPG, GIF, WebP 最大10MB • 透明度対応"
+    "description": "PNG, JPG, WebP 最大10MB • 透明度対応"
   },
   "settings": {
     "title": "設定",

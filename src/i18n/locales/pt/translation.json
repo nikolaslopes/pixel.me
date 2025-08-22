@@ -5,7 +5,7 @@
   },
   "upload": {
     "title": "Clique para selecionar uma imagem",
-    "description": "PNG, JPG, GIF, WebP até 10MB • Suporte a transparência"
+    "description": "PNG, JPG, WebP até 10MB • Suporte a transparência"
   },
   "settings": {
     "title": "Configurações",
