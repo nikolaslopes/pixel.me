@@ -10,7 +10,7 @@ export const useImageProcessor = () => {
   const [pixelArtImage, setPixelArtImage] = useState<string | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   const convertToPixelArt = useCallback(
     async (img: HTMLImageElement, settings: PixelArtSettings): Promise<void> => {
@@ -27,12 +27,12 @@ export const useImageProcessor = () => {
         const url = await ImageProcessor.processImage(canvasRef.current, img, settings);
         setPixelArtImage(url);
       } catch {
-        setError(t('errors.conversion'));
+        setError(getText('errors.conversion'));
       } finally {
         setLoading(false);
       }
     },
-    [pixelArtImage, t]
+    [pixelArtImage, getText]
   );
 
   return {

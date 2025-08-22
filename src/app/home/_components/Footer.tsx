@@ -2,14 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { Github } from 'lucide-react';
 
 export const Footer: React.FC = () => {
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   return (
     <footer className="py-8">
       <div className="flex items-center justify-center gap-2 text-center text-sm text-blue-200">
         <Github size={16} />
         <p>
-          {t('footer.developedBy')}
+          {getText('footer.developedBy')}
           <a
             href="https://github.com/nikolaslopes"
             target="_blank"

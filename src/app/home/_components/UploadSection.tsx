@@ -13,7 +13,7 @@ export const UploadSection: React.FC<UploadSectionProps> = ({
   onUploadClick,
   onImageUpload,
 }) => {
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   return (
     <div className="mb-6 rounded-xl border border-white/20 bg-white/10 p-6 backdrop-blur-lg">
@@ -22,8 +22,8 @@ export const UploadSection: React.FC<UploadSectionProps> = ({
         onClick={onUploadClick}
       >
         <Upload className="mx-auto mb-4 text-blue-300" size={48} />
-        <p className="mb-2 text-lg text-white">{t('upload.title')}</p>
-        <p className="text-sm text-blue-200">{t('upload.description')}</p>
+        <p className="mb-2 text-lg text-white">{getText('upload.title')}</p>
+        <p className="text-sm text-blue-200">{getText('upload.description')}</p>
         <input
           ref={fileInputRef}
           type="file"

@@ -10,13 +10,13 @@ export const SettingsHeader: React.FC<SettingsHeaderProps> = ({
   onResetSettings,
   onAddNewImage,
 }) => {
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   return (
     <div className="mb-4 flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
       <h3 className="flex items-center gap-2 text-lg font-semibold text-white">
         <Settings size={20} />
-        {t('settings.title')}
+        {getText('settings.title')}
       </h3>
 
       <div className="flex w-full items-center gap-2 md:w-auto">
@@ -25,7 +25,7 @@ export const SettingsHeader: React.FC<SettingsHeaderProps> = ({
           className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-blue-600/60 px-3 py-2 text-sm text-blue-100 transition-all hover:bg-blue-600/90 md:flex-initial"
         >
           <RefreshCw size={14} />
-          {t('settings.reset')}
+          {getText('settings.reset')}
         </button>
 
         <button
@@ -33,7 +33,7 @@ export const SettingsHeader: React.FC<SettingsHeaderProps> = ({
           className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-blue-600/60 px-3 py-2 text-sm text-blue-100 transition-all hover:bg-blue-600/90 md:flex-initial"
         >
           <FilePlus size={14} />
-          {t('settings.newImage')}
+          {getText('settings.newImage')}
         </button>
       </div>
     </div>

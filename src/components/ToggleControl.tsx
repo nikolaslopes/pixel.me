@@ -15,7 +15,7 @@ export const ToggleControl: React.FC<ToggleControlProps> = ({
   value,
   onChange,
 }) => {
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   return (
     <div>
@@ -46,7 +46,7 @@ export const ToggleControl: React.FC<ToggleControlProps> = ({
           value ? 'bg-pink-500 text-white' : 'bg-gray-600 text-gray-300 hover:bg-gray-500'
         }`}
       >
-        {value ? t('settings.ditheringOn') : t('settings.ditheringOff')}
+        {value ? getText('settings.ditheringOn') : getText('settings.ditheringOff')}
       </button>
     </div>
   );

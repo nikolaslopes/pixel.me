@@ -19,14 +19,14 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
   onSettingsChange,
   onPresetChange,
 }) => {
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   return (
     <Tooltip.Provider delayDuration={300}>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
         <SettingsControl
-          label={t('settings.pixelSize')}
-          description={t('settings.tooltips.pixelSize')}
+          label={getText('settings.pixelSize')}
+          description={getText('settings.tooltips.pixelSize')}
           value={settings.pixelSize}
           min="2"
           max="20"
@@ -35,8 +35,8 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
         />
 
         <SettingsControl
-          label={t('settings.colorReduction')}
-          description={t('settings.tooltips.colorReduction')}
+          label={getText('settings.colorReduction')}
+          description={getText('settings.tooltips.colorReduction')}
           value={settings.colorReduction}
           min="4"
           max="64"
@@ -45,8 +45,8 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
         />
 
         <SettingsControl
-          label={t('settings.brightness')}
-          description={t('settings.tooltips.brightness')}
+          label={getText('settings.brightness')}
+          description={getText('settings.tooltips.brightness')}
           value={settings.brightness}
           min="0.3"
           max="2"
@@ -56,8 +56,8 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
         />
 
         <SettingsControl
-          label={t('settings.contrast')}
-          description={t('settings.tooltips.contrast')}
+          label={getText('settings.contrast')}
+          description={getText('settings.tooltips.contrast')}
           value={settings.contrast}
           min="0.3"
           max="2"
@@ -67,8 +67,8 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
         />
 
         <SettingsControl
-          label={t('settings.saturation')}
-          description={t('settings.tooltips.saturation')}
+          label={getText('settings.saturation')}
+          description={getText('settings.tooltips.saturation')}
           value={settings.saturation}
           min="0"
           max="2"
@@ -78,14 +78,14 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
         />
 
         <ToggleControl
-          label={t('settings.dithering')}
-          description={t('settings.tooltips.dithering')}
+          label={getText('settings.dithering')}
+          description={getText('settings.tooltips.dithering')}
           value={settings.dithering}
           onChange={(value) => onSettingsChange('dithering', value)}
         />
 
         <div className="mb-4 flex flex-col gap-2">
-          <label className="mb-2 block text-sm text-blue-200">{t('settings.presets')}</label>
+          <label className="mb-2 block text-sm text-blue-200">{getText('settings.presets')}</label>
           <div className="flex flex-wrap gap-2 md:flex-nowrap">
             {(Object.keys(IMAGE_PRESETS) as ImagePresetName[]).map((name) => (
               <button

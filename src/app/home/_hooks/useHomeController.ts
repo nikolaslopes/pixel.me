@@ -12,7 +12,7 @@ export function useHomeController() {
 
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
-  const { t } = useTranslation();
+  const { t: getText } = useTranslation();
 
   const {
     loading,
@@ -44,17 +44,17 @@ export function useHomeController() {
             convertToPixelArt(img, settings);
           };
           img.onerror = () => {
-            setError(t('errors.imageLoad'));
+            setError(getText('errors.imageLoad'));
           };
           img.src = result;
         }
       };
       reader.onerror = () => {
-        setError(t('errors.fileRead'));
+        setError(getText('errors.fileRead'));
       };
       reader.readAsDataURL(file);
     } else {
-      setError(t('errors.invalidFileType'));
+      setError(getText('errors.invalidFileType'));
     }
   };
 
