@@ -1,4 +1,3 @@
-import React from 'react';
 import { OriginalImageCard } from './OriginalImageCard';
 import { PixelArtCard } from './PixelArtCard';
 

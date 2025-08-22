@@ -1,5 +1,5 @@
+import { ChangeEvent, RefObject } from 'react';
 import { Upload } from 'lucide-react';
-import React, { ChangeEvent, RefObject } from 'react';
 import { useTranslation } from 'react-i18next';
 
 interface UploadSectionProps {
@@ -27,7 +27,7 @@ export const UploadSection: React.FC<UploadSectionProps> = ({
         <input
           ref={fileInputRef}
           type="file"
-          accept="image/*"
+          accept="image/jpeg,image/jpg,image/png,image/webp,image/bmp,image/tiff"
           onChange={onImageUpload}
           className="hidden"
         />

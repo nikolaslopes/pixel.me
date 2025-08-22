@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { SettingsHeader, SettingsHeaderProps } from './SettingsHeader';
 import { SettingsAction, SettingsActionsProps } from './SettingsActions';
 
