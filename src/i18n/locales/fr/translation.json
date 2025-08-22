@@ -37,5 +37,11 @@
   },
   "footer": {
     "developedBy": "Développé par"
+  },
+  "errors": {
+    "invalidFileType": "Oups ! Veuillez sélectionner un fichier image valide (PNG, JPG, WebP).",
+    "fileRead": "Impossible de lire le fichier. Veuillez essayer de le sélectionner à nouveau.",
+    "imageLoad": "Échec du chargement de l'image. Elle est peut-être corrompue ou dans un format non pris en charge. Veuillez en essayer une autre.",
+    "conversion": "Une erreur s'est produite lors de la conversion. Réessayez ou ajustez les paramètres."
   }
 }
