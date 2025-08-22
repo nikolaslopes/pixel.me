@@ -34,7 +34,7 @@ export const LanguageSwitcher: React.FC = () => {
     };
   }, []);
 
-  const currentLanguage = languages[i18n.language as keyof typeof languages] || languages.pt;
+  const currentLanguage = languages[i18n.language as keyof typeof languages] || languages.en;
 
   return (
     <div className="relative" ref={dropdownRef}>
