@@ -8,6 +8,7 @@ import { SettingsGroup } from './_components/SettingsGroup';
 import { ImageGroup } from './_components/ImageGroup';
 import { Footer } from './_components/Footer';
 import { useHomeController } from './_hooks/useHomeController';
+import { BackToTopButton } from '@/components/BackToTopButton';
 
 const Home: React.FC = () => {
   const {
@@ -29,43 +30,47 @@ const Home: React.FC = () => {
   } = useHomeController();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4">
-      <div className="mx-auto max-w-6xl">
-        <Header />
+    <>
+      <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-4">
+        <div className="mx-auto max-w-6xl">
+          <Header />
 
-        {error && <ErrorMessage message={error} />}
+          {error && <ErrorMessage message={error} />}
 
-        <main>
-          <UploadSection
-            fileInputRef={fileInputRef}
-            onUploadClick={handleUploadClick}
-            onImageUpload={handleImageUpload}
-          />
-
-          {originalImage && (
-            <SettingsGroup
-              onResetSettings={handleResetSettings}
-              onAddNewImage={handleAddNewImage}
-              settings={settings}
-              activePreset={activePreset}
-              onSettingsChange={handleSettingsChange}
-              onPresetChange={applyPreset}
+          <main>
+            <UploadSection
+              fileInputRef={fileInputRef}
+              onUploadClick={handleUploadClick}
+              onImageUpload={handleImageUpload}
             />
-          )}
 
-          <ImageGroup
-            loading={loading}
-            originalImage={originalImage}
-            pixelArtImage={pixelArtImage}
-            onDownload={handleDownloadImage}
-          />
+            {originalImage && (
+              <SettingsGroup
+                onResetSettings={handleResetSettings}
+                onAddNewImage={handleAddNewImage}
+                settings={settings}
+                activePreset={activePreset}
+                onSettingsChange={handleSettingsChange}
+                onPresetChange={applyPreset}
+              />
+            )}
 
-          <canvas ref={canvasRef} className="hidden" />
-        </main>
+            <ImageGroup
+              loading={loading}
+              originalImage={originalImage}
+              pixelArtImage={pixelArtImage}
+              onDownload={handleDownloadImage}
+            />
+
+            <canvas ref={canvasRef} className="hidden" />
+          </main>
+        </div>
+
+        <Footer />
       </div>
 
-      <Footer />
-    </div>
+      <BackToTopButton />
+    </>
   );
 };
 
