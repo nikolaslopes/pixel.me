@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'pixel.me',
     images: [
       {
-        url: 'https://media.cleanshot.cloud/media/43819/Zwyq4eXUPHpYytrpQEvRTiaTtBH5PjzcXkwHoghE.jpeg?Expires=1755931758&Signature=mrW5m6hcrSklShu2wH4ddgjGVCrYLDjLb9R~0pmwzLymCNHf84UQ~S14P6838FN44tGxVqvYO4XGIcWQqxWCwGss7phdoRN~Dcq6AlUqHVW8ZhSANzV8rV3J6KQbXlDRJBUu6s-MBTvwDm8q749XizODu-MQPmC4jMQ490ICHBLB2ltF~M5Sh-MDchwvFOE3TMQI4RWWDsa6iLn1aaZ8l3BS0u-XrcKo7bHRXNrT800SFszA5JhzPdwDdtkMfZJ6rtbfa4Fg8WFDVgXSQnZDmNCl9eZJ9-b~yn6EZHXc3Nps7DHiY3GiVFUk4BNUJnaoJo3b02XKj9TRJ5tK93VVeA__&Key-Pair-Id=K269JMAT9ZF4GZ',
+        url: 'public/og-image.png',
         width: 1200,
         height: 630,
         alt: 'pixel.me - Transform images into pixel art',
@@ -43,9 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'pixel.me - Turn your images into pixel art',
     description: 'Transform any image into beautiful pixel art with just one click.',
-    images: [
-      'https://media.cleanshot.cloud/media/43819/Zwyq4eXUPHpYytrpQEvRTiaTtBH5PjzcXkwHoghE.jpeg?Expires=1755931758&Signature=mrW5m6hcrSklShu2wH4ddgjGVCrYLDjLb9R~0pmwzLymCNHf84UQ~S14P6838FN44tGxVqvYO4XGIcWQqxWCwGss7phdoRN~Dcq6AlUqHVW8ZhSANzV8rV3J6KQbXlDRJBUu6s-MBTvwDm8q749XizODu-MQPmC4jMQ490ICHBLB2ltF~M5Sh-MDchwvFOE3TMQI4RWWDsa6iLn1aaZ8l3BS0u-XrcKo7bHRXNrT800SFszA5JhzPdwDdtkMfZJ6rtbfa4Fg8WFDVgXSQnZDmNCl9eZJ9-b~yn6EZHXc3Nps7DHiY3GiVFUk4BNUJnaoJo3b02XKj9TRJ5tK93VVeA__&Key-Pair-Id=K269JMAT9ZF4GZ',
-    ],
+    images: ['public/og-image.png'],
   },
 
   robots: {
