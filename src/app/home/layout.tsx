@@ -16,23 +16,57 @@ export const metadata: Metadata = {
   title: 'pixel.me',
   description: 'Turn your images into pixel art with a click',
   metadataBase: new URL('https://pixelme-pi.vercel.app'),
+  keywords: ['pixel art', 'image converter', 'pixelate', 'retro', 'art tool'],
+  authors: [{ name: 'pixel.me' }],
+  creator: 'pixel.me',
+  publisher: 'pixel.me',
 
   openGraph: {
-    title: 'pixel.me',
-    description: 'Turn your images into pixel art with a click',
+    title: 'pixel.me - Turn your images into pixel art',
+    description:
+      'Transform any image into beautiful pixel art with just one click. Free online pixel art converter.',
     url: '/',
     siteName: 'pixel.me',
     images: [
       {
-        url: 'https://media.cleanshot.cloud/media/43819/Zwyq4eXUPHpYytrpQEvRTiaTtBH5PjzcXkwHoghE.jpeg?Expires=1755930685&Signature=P8VA6sWSMaJ1SIcnTPld~Y3jMVSyTyYAERz55oCIL-EB10llQBCbTfZOOJne6gDLNaDi24WDnniSVGVXaXuJ0OszA7jHscj63G~cftAK-M9m9r88vWJ1J94hnpUhuiT3~vEjzpgMWlzUkUtBXuO00t1c~Bu-JH5TeTy~aRCsQ7d5onKFhvssbOi5fIww1vZtroeNPx3Ed-3l5znkMDSN2J8~1~CkannoyKgviIyT0P~y8J9AMWxcH7WIWpRcAFG0Yf2JcJpL7BlWb25b7TtNhFdrT0NpEY0XXuuPE~asEi6i0D7tGksHlxhiRzcqBwyvjyg95QkkjYgZ~EZu0QIqBQ__&Key-Pair-Id=K269JMAT9ZF4GZ',
+        url: 'https://media.cleanshot.cloud/media/43819/Zwyq4eXUPHpYytrpQEvRTiaTtBH5PjzcXkwHoghE.jpeg?Expires=1755931758&Signature=mrW5m6hcrSklShu2wH4ddgjGVCrYLDjLb9R~0pmwzLymCNHf84UQ~S14P6838FN44tGxVqvYO4XGIcWQqxWCwGss7phdoRN~Dcq6AlUqHVW8ZhSANzV8rV3J6KQbXlDRJBUu6s-MBTvwDm8q749XizODu-MQPmC4jMQ490ICHBLB2ltF~M5Sh-MDchwvFOE3TMQI4RWWDsa6iLn1aaZ8l3BS0u-XrcKo7bHRXNrT800SFszA5JhzPdwDdtkMfZJ6rtbfa4Fg8WFDVgXSQnZDmNCl9eZJ9-b~yn6EZHXc3Nps7DHiY3GiVFUk4BNUJnaoJo3b02XKj9TRJ5tK93VVeA__&Key-Pair-Id=K269JMAT9ZF4GZ',
         width: 1200,
         height: 630,
-        alt: 'A promotional image for pixel.me',
+        alt: 'pixel.me - Transform images into pixel art',
       },
     ],
     locale: 'en-US',
     type: 'website',
   },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'pixel.me - Turn your images into pixel art',
+    description: 'Transform any image into beautiful pixel art with just one click.',
+    images: [
+      'https://media.cleanshot.cloud/media/43819/Zwyq4eXUPHpYytrpQEvRTiaTtBH5PjzcXkwHoghE.jpeg?Expires=1755931758&Signature=mrW5m6hcrSklShu2wH4ddgjGVCrYLDjLb9R~0pmwzLymCNHf84UQ~S14P6838FN44tGxVqvYO4XGIcWQqxWCwGss7phdoRN~Dcq6AlUqHVW8ZhSANzV8rV3J6KQbXlDRJBUu6s-MBTvwDm8q749XizODu-MQPmC4jMQ490ICHBLB2ltF~M5Sh-MDchwvFOE3TMQI4RWWDsa6iLn1aaZ8l3BS0u-XrcKo7bHRXNrT800SFszA5JhzPdwDdtkMfZJ6rtbfa4Fg8WFDVgXSQnZDmNCl9eZJ9-b~yn6EZHXc3Nps7DHiY3GiVFUk4BNUJnaoJo3b02XKj9TRJ5tK93VVeA__&Key-Pair-Id=K269JMAT9ZF4GZ',
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
+  },
+
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
