@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     siteName: 'pixel.me',
     images: [
       {
-        url: 'src/app/favicon.ico',
+        url: 'https://media.cleanshot.cloud/media/43819/Zwyq4eXUPHpYytrpQEvRTiaTtBH5PjzcXkwHoghE.jpeg?Expires=1755930685&Signature=P8VA6sWSMaJ1SIcnTPld~Y3jMVSyTyYAERz55oCIL-EB10llQBCbTfZOOJne6gDLNaDi24WDnniSVGVXaXuJ0OszA7jHscj63G~cftAK-M9m9r88vWJ1J94hnpUhuiT3~vEjzpgMWlzUkUtBXuO00t1c~Bu-JH5TeTy~aRCsQ7d5onKFhvssbOi5fIww1vZtroeNPx3Ed-3l5znkMDSN2J8~1~CkannoyKgviIyT0P~y8J9AMWxcH7WIWpRcAFG0Yf2JcJpL7BlWb25b7TtNhFdrT0NpEY0XXuuPE~asEi6i0D7tGksHlxhiRzcqBwyvjyg95QkkjYgZ~EZu0QIqBQ__&Key-Pair-Id=K269JMAT9ZF4GZ',
         width: 1200,
         height: 630,
-        alt: 'A promotional image for pixel.me showing pixelated art.',
+        alt: 'A promotional image for pixel.me',
       },
     ],
-    locale: 'src/app/favicon.ico',
+    locale: 'en-US',
     type: 'website',
   },
 };
