@@ -15,7 +15,7 @@ const pixelify = Pixelify_Sans({
 export const metadata: Metadata = {
   title: 'pixel.me',
   description: 'Turn your images into pixel art with a click',
-  metadataBase: new URL('https://pixelme-pi.vercel.app/home'),
+  metadataBase: new URL('https://pixelme-pi.vercel.app'),
 
   openGraph: {
     title: 'pixel.me',
