@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: 'pixel.me',
     images: [
       {
-        url: 'public/og-image.png',
+        url: 'og-image.png',
         width: 1200,
         height: 630,
         alt: 'pixel.me - Transform images into pixel art',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'pixel.me - Turn your images into pixel art',
     description: 'Transform any image into beautiful pixel art with just one click.',
-    images: ['public/og-image.png'],
+    images: ['/og-image.png'],
   },
 
   robots: {
