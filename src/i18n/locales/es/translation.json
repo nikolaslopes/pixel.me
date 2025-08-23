@@ -5,28 +5,29 @@
   },
   "upload": {
     "title": "Haz clic para seleccionar una imagen",
-    "description": "PNG, JPG, WebP hasta 10MB • Soporte para transparencia"
+    "description": "PNG, JPG, WebP hasta 10MB • Transparencia admitida",
+    "drop": "Suelta tus imágenes aquí",
+    "dropDescription": "Suelta para subir",
+    "invalidFiles": "Archivo no válido: {{file}}. Solo se aceptan imágenes."
   },
   "settings": {
-    "title": "Configuración",
+    "title": "Ajustes",
     "reset": "Reiniciar",
     "newImage": "Nueva Imagen",
-    "pixelSize": "Tamaño del Píxel",
-    "colorReduction": "Reducción de Colores",
+    "pixelSize": "Tamaño de Píxel",
+    "colorReduction": "Reducción de Color",
     "brightness": "Brillo",
     "contrast": "Contraste",
     "saturation": "Saturación",
-    "dithering": "Tramado (Dithering)",
-    "ditheringOn": "Activado",
-    "ditheringOff": "Desactivado",
-    "presets": "Presets",
+    "dithering": "Tramado",
+    "presets": "Preajustes",
     "tooltips": {
       "pixelSize": "Define el tamaño de cada 'bloque' de color en la imagen. Valores más grandes crean un aspecto más abstracto y retro, mientras que valores más pequeños conservan más detalles.",
-      "colorReduction": "Limita el número total de colores en la imagen final para crear una apariencia de videojuego retro (ej: 8-bit, 16-bit).",
-      "brightness": "Ajusta el brillo general de la imagen. Auméntalo para aclarar los colores y redúcelo para oscurecerlos.",
+      "colorReduction": "Limita el número total de colores en la imagen final para crear un aspecto de videojuego retro (p. ej., 8 bits, 16 bits).",
+      "brightness": "Ajusta el brillo general de la imagen. Aumenta para aclarar los colores y disminuye para oscurecerlos.",
       "contrast": "Aumenta o disminuye la diferencia entre las áreas claras y oscuras. Un mayor contraste hace que los colores sean más intensos y definidos.",
       "saturation": "Controla la 'pureza' o intensidad de los colores. Valores bajos hacen que la imagen sea grisácea (blanco y negro), mientras que valores altos hacen los colores más vivos.",
-      "dithering": "Una técnica de arte digital que utiliza patrones de píxeles para simular tonos intermedios y suavizar gradientes, creando un aspecto clásico y nostálgico común en los juegos de consolas antiguas."
+      "dithering": "Una técnica de arte digital que utiliza patrones de píxeles para simular tonos intermedios y gradientes suaves, creando un aspecto clásico y nostálgico común en los antiguos juegos de consola."
     }
   },
   "results": {

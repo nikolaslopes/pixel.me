@@ -5,7 +5,10 @@
   },
   "upload": {
     "title": "Cliquez pour sélectionner une image",
-    "description": "PNG, JPG, WebP jusqu'à 10Mo • Transparence supportée"
+    "description": "PNG, JPG, WebP jusqu'à 10Mo • Transparence prise en charge",
+    "drop": "Déposez vos images ici",
+    "dropDescription": "Relâchez pour téléverser",
+    "invalidFiles": "Fichier non valide : {{file}}. Seules les images sont acceptées."
   },
   "settings": {
     "title": "Paramètres",
@@ -16,17 +19,15 @@
     "brightness": "Luminosité",
     "contrast": "Contraste",
     "saturation": "Saturation",
-    "dithering": "Tramage (Dithering)",
-    "ditheringOn": "Activé",
-    "ditheringOff": "Désactivé",
+    "dithering": "Tramage",
     "presets": "Préréglages",
     "tooltips": {
-      "pixelSize": "Définit la taille de chaque 'bloc' de couleur dans l'image. Des valeurs plus grandes créent un aspect plus abstrait et rétro, tandis que des valeurs plus petites conservent plus de détails.",
-      "colorReduction": "Limite le nombre total de couleurs dans l'image finale pour créer un aspect de jeu vidéo rétro (ex: 8-bit, 16-bit).",
+      "pixelSize": "Définit la taille de chaque 'bloc' de couleur dans l'image. Des valeurs plus élevées créent un aspect plus abstrait et rétro, tandis que des valeurs plus faibles conservent plus de détails.",
+      "colorReduction": "Limite le nombre total de couleurs dans l'image finale pour créer un look de jeu vidéo rétro (par ex. 8 bits, 16 bits).",
       "brightness": "Ajuste la luminosité globale de l'image. Augmentez pour éclaircir les couleurs et diminuez pour les assombrir.",
       "contrast": "Augmente ou diminue la différence entre les zones claires et sombres. Un contraste plus élevé rend les couleurs plus intenses et définies.",
       "saturation": "Contrôle la 'pureté' ou l'intensité des couleurs. Des valeurs basses rendent l'image grisâtre (noir et blanc), tandis que des valeurs élevées rendent les couleurs plus vives.",
-      "dithering": "Une technique d'art numérique qui utilise des motifs de pixels pour simuler des tons intermédiaires et lisser les dégradés, créant un aspect classique et nostalgique commun dans les anciens jeux de console."
+      "dithering": "Une technique d'art numérique qui utilise des motifs de pixels pour simuler des tons intermédiaires et des dégradés doux, créant un aspect classique et nostalgique commun dans les anciens jeux de console."
     }
   },
   "results": {

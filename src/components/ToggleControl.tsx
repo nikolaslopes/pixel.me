@@ -1,5 +1,4 @@
 import { HelpCircle } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 import * as Tooltip from '@radix-ui/react-tooltip';
 
 interface ToggleControlProps {
@@ -15,12 +14,10 @@ export const ToggleControl: React.FC<ToggleControlProps> = ({
   value,
   onChange,
 }) => {
-  const { t: getText } = useTranslation();
-
   return (
     <div>
       <Tooltip.Root>
-        <div className="mb-2 flex items-center gap-2">
+        <div className="mb-3 flex items-center gap-2">
           <label className="text-sm text-blue-200">{label}</label>
           <Tooltip.Trigger asChild>
             <button type="button" aria-label={`Ajuda sobre ${label}`}>
@@ -40,14 +37,23 @@ export const ToggleControl: React.FC<ToggleControlProps> = ({
         </Tooltip.Portal>
       </Tooltip.Root>
 
-      <button
-        onClick={() => onChange(!value)}
-        className={`w-full rounded-lg px-4 py-2 transition-all ${
-          value ? 'bg-pink-500 text-white' : 'bg-gray-600 text-gray-300 hover:bg-gray-500'
-        }`}
-      >
-        {value ? getText('settings.ditheringOn') : getText('settings.ditheringOff')}
-      </button>
+      <div className="flex items-center justify-between">
+        <button
+          onClick={() => onChange(!value)}
+          className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-gray-900 focus:outline-none ${
+            value ? 'bg-pink-500' : 'bg-gray-600'
+          }`}
+          role="switch"
+          aria-checked={value}
+          aria-label={`${value ? 'Desativar' : 'Ativar'} ${label}`}
+        >
+          <span
+            className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+              value ? 'translate-x-6' : 'translate-x-1'
+            }`}
+          />
+        </button>
+      </div>
     </div>
   );
 };
