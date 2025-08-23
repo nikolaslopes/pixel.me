@@ -5,7 +5,10 @@
   },
   "upload": {
     "title": "Click to select an image",
-    "description": "PNG, JPG, WebP up to 10MB • Transparency supported"
+    "description": "PNG, JPG, WebP up to 10MB • Transparency supported",
+    "drop": "Drop your images here",
+    "dropDescription": "Release to upload",
+    "invalidFiles": "Invalid file: {{file}}. Only images are accepted."
   },
   "settings": {
     "title": "Settings",
@@ -17,8 +20,6 @@
     "contrast": "Contrast",
     "saturation": "Saturation",
     "dithering": "Dithering",
-    "ditheringOn": "Enabled",
-    "ditheringOff": "Disabled",
     "presets": "Presets",
     "tooltips": {
       "pixelSize": "Defines the size of each color 'block' in the image. Larger values create a more abstract and retro look, while smaller values retain more detail.",
