@@ -29,9 +29,7 @@ export const metadata: Metadata = {
     siteName: 'pixel.me',
     images: [
       {
-        url: 'og-image.png',
-        width: 1200,
-        height: 630,
+        url: '/og-image.png',
         alt: 'pixel.me - Transform images into pixel art',
       },
     ],
