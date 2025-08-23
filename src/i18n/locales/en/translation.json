@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "pixel.me",
+    "subtitle": "Turn your images into pixel art with a click"
+  },
+  "upload": {
+    "title": "Click to select an image",
+    "description": "PNG, JPG, WebP up to 10MB • Transparency supported"
+  },
+  "settings": {
+    "title": "Settings",
+    "reset": "Reset",
+    "newImage": "New Image",
+    "pixelSize": "Pixel Size",
+    "colorReduction": "Color Reduction",
+    "brightness": "Brightness",
+    "contrast": "Contrast",
+    "saturation": "Saturation",
+    "dithering": "Dithering",
+    "ditheringOn": "Enabled",
+    "ditheringOff": "Disabled",
+    "presets": "Presets",
+    "tooltips": {
+      "pixelSize": "Defines the size of each color 'block' in the image. Larger values create a more abstract and retro look, while smaller values retain more detail.",
+      "colorReduction": "Limits the total number of colors in the final image to create a retro video game look (e.g., 8-bit, 16-bit).",
+      "brightness": "Adjusts the overall brightness of the image. Increase to lighten colors and decrease to darken them.",
+      "contrast": "Increases or decreases the difference between light and dark areas. Higher contrast makes colors more intense and defined.",
+      "saturation": "Controls the 'purity' or intensity of colors. Low values make the image grayish (black and white), while high values make colors more vivid.",
+      "dithering": "A digital art technique that uses pixel patterns to simulate intermediate tones and smooth gradients, creating a classic, nostalgic look common in old console games."
+    }
+  },
+  "results": {
+    "originalImage": "Original Image",
+    "pixelArt": "Pixel Art",
+    "download": "Download",
+    "processing": "Processing image..."
+  },
+  "footer": {
+    "developedBy": "Developed by"
+  },
+  "errors": {
+    "invalidFileType": "Oops! Please select a valid image file (PNG, JPG, WebP).",
+    "fileRead": "Could not read the file. Please try selecting it again.",
+    "imageLoad": "Failed to load the image. It might be corrupted or in an unsupported format. Please try a different one.",
+    "conversion": "An error occurred during the conversion. Try again or adjust the settings."
+  }
+}

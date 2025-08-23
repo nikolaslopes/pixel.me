@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "pixel.me",
+    "subtitle": "Verwandeln Sie Ihre Bilder mit einem Klick in Pixel-Art"
+  },
+  "upload": {
+    "title": "Klicken Sie, um ein Bild auszuwählen",
+    "description": "PNG, JPG, WebP bis zu 10MB • Transparenz unterstützt"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "reset": "Zurücksetzen",
+    "newImage": "Neues Bild",
+    "pixelSize": "Pixelgröße",
+    "colorReduction": "Farbreduktion",
+    "brightness": "Helligkeit",
+    "contrast": "Kontrast",
+    "saturation": "Sättigung",
+    "dithering": "Dithering",
+    "ditheringOn": "Aktiviert",
+    "ditheringOff": "Deaktiviert",
+    "presets": "Voreinstellungen",
+    "tooltips": {
+      "pixelSize": "Definiert die Größe jedes Farb-'Blocks' im Bild. Größere Werte erzeugen ein abstrakteres und retro-aussehendes Bild, während kleinere Werte mehr Details erhalten.",
+      "colorReduction": "Begrenzt die Gesamtzahl der Farben im endgültigen Bild, um einen Retro-Videospiel-Look zu erzeugen (z.B. 8-Bit, 16-Bit).",
+      "brightness": "Passt die allgemeine Helligkeit des Bildes an. Erhöhen, um die Farben aufzuhellen, und verringern, um sie abzudunkeln.",
+      "contrast": "Erhöht oder verringert den Unterschied zwischen hellen und dunklen Bereichen. Ein höherer Kontrast macht die Farben intensiver und definierter.",
+      "saturation": "Steuert die 'Reinheit' oder Intensität der Farben. Niedrige Werte machen das Bild gräulich (schwarz-weiß), während hohe Werte die Farben lebendiger machen.",
+      "dithering": "Eine digitale Kunsttechnik, die Pixelmuster verwendet, um Zwischentöne zu simulieren und Farbverläufe zu glätten, was einen klassischen, nostalgischen Look erzeugt, der in alten Konsolenspielen üblich ist."
+    }
+  },
+  "results": {
+    "originalImage": "Originalbild",
+    "pixelArt": "Pixel-Art",
+    "download": "Herunterladen",
+    "processing": "Bild wird verarbeitet..."
+  },
+  "footer": {
+    "developedBy": "Entwickelt von"
+  },
+  "errors": {
+    "invalidFileType": "Hoppla! Bitte wählen Sie eine gültige Bilddatei aus (PNG, JPG, WebP).",
+    "fileRead": "Die Datei konnte nicht gelesen werden. Bitte versuchen Sie erneut, sie auszuwählen.",
+    "imageLoad": "Das Bild konnte nicht geladen werden. Es ist möglicherweise beschädigt oder hat ein nicht unterstütztes Format. Bitte versuchen Sie es mit einem anderen.",
+    "conversion": "Bei der Konvertierung ist ein Fehler aufgetreten. Versuchen Sie es erneut oder passen Sie die Einstellungen an."
+  }
+}

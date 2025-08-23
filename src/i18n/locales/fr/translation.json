@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "pixel.me",
+    "subtitle": "Transformez vos images en pixel art en un clic"
+  },
+  "upload": {
+    "title": "Cliquez pour sélectionner une image",
+    "description": "PNG, JPG, WebP jusqu'à 10Mo • Transparence supportée"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "reset": "Réinitialiser",
+    "newImage": "Nouvelle Image",
+    "pixelSize": "Taille des Pixels",
+    "colorReduction": "Réduction des Couleurs",
+    "brightness": "Luminosité",
+    "contrast": "Contraste",
+    "saturation": "Saturation",
+    "dithering": "Tramage (Dithering)",
+    "ditheringOn": "Activé",
+    "ditheringOff": "Désactivé",
+    "presets": "Préréglages",
+    "tooltips": {
+      "pixelSize": "Définit la taille de chaque 'bloc' de couleur dans l'image. Des valeurs plus grandes créent un aspect plus abstrait et rétro, tandis que des valeurs plus petites conservent plus de détails.",
+      "colorReduction": "Limite le nombre total de couleurs dans l'image finale pour créer un aspect de jeu vidéo rétro (ex: 8-bit, 16-bit).",
+      "brightness": "Ajuste la luminosité globale de l'image. Augmentez pour éclaircir les couleurs et diminuez pour les assombrir.",
+      "contrast": "Augmente ou diminue la différence entre les zones claires et sombres. Un contraste plus élevé rend les couleurs plus intenses et définies.",
+      "saturation": "Contrôle la 'pureté' ou l'intensité des couleurs. Des valeurs basses rendent l'image grisâtre (noir et blanc), tandis que des valeurs élevées rendent les couleurs plus vives.",
+      "dithering": "Une technique d'art numérique qui utilise des motifs de pixels pour simuler des tons intermédiaires et lisser les dégradés, créant un aspect classique et nostalgique commun dans les anciens jeux de console."
+    }
+  },
+  "results": {
+    "originalImage": "Image Originale",
+    "pixelArt": "Pixel Art",
+    "download": "Télécharger",
+    "processing": "Traitement de l'image..."
+  },
+  "footer": {
+    "developedBy": "Développé par"
+  },
+  "errors": {
+    "invalidFileType": "Oups ! Veuillez sélectionner un fichier image valide (PNG, JPG, WebP).",
+    "fileRead": "Impossible de lire le fichier. Veuillez essayer de le sélectionner à nouveau.",
+    "imageLoad": "Échec du chargement de l'image. Elle est peut-être corrompue ou dans un format non pris en charge. Veuillez en essayer une autre.",
+    "conversion": "Une erreur s'est produite lors de la conversion. Réessayez ou ajustez les paramètres."
+  }
+}
