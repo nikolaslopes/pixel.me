@@ -1,8 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+ <img src=".github/assets/readme-header.png" />
+</div>
 
-## Getting Started
+---
 
-First, run the development server:
+🟢 [Live Demo](https://pixelme-pi.vercel.app/home)
+
+### 📖 About the Project
+
+The **pixel.me** is a web project to transform images into pixel art, that's all :D. The main idea is to use pure JavaScript to generate the image.
+
+### ✨ Key Features
+
+- Generate pixel art images: Simply select or drag an image to preview it.
+- Image presets: Default presets based on old school pixel art
+- Optimized performance: Developed with Next.js for fast loading and smooth navigation.
+- Responsive: Works perfectly on desktops, tablets, and mobile devices.
+- Multi-language Support: Available in 🇬🇧 English, 🇧🇷 Brazilian Portuguese, 🇯🇵 Japanese, 🇪🇸 Spanish, 🇫🇷 French, and 🇩🇪 German.
+
+### 🖼️ Screenshots
+
+<p align="center">
+  <img src=".github/assets/readme-s1.png" />
+  <img src=".github/assets/readme-s2.png" />
+  <img src=".github/assets/readme-s3.png" />
+</p>
+
+### ⚙️ Getting Started Locally
+
+To get started with this project on your local machine, follow the steps below.
+
+**Prerequisites**
+
+- **Node.js:** This project requires a specific version of Node.js to run correctly, which is specified in the `.nvmrc` file.
+  - If you use NVM (Node Version Manager), simply run nvm use in the project's root directory to automatically switch to the correct version.
+  - If you don't use NVM, please ensure your Node.js version is v24.4.1 or a compatible version.
+- **Package Manager:** A package manager like npm, yarn, pnpm, or bun.
+
+#### Installation and Running
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/nikolaslopes/pixelme.git
+```
+
+2. **Navigate to the project directory:**
+
+```bash
+cd pixelme
+```
+
+3. **Install the dependencies:**
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+4. **Run the development server:**
 
 ```bash
 npm run dev
@@ -10,27 +69,17 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. **Open your browser:**
+   Access http://localhost:3000 to see the result
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🤝 Contributing & Suggestions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This is a project under development, and bugs may occur. If you find any issues or have suggestions to improve **pixel.me**, please feel free to open an **[Issue](https://github.com/nikolaslopes/pixelme/issues)**!
 
-## Learn More
+All contributions are welcome.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">👾 Developed by <a href="https://github.com/nikolaslopes" target="_blank">@nikolaslopes</a><div>
