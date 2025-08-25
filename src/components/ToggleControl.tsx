@@ -41,11 +41,11 @@ export const ToggleControl: React.FC<ToggleControlProps> = ({
         <button
           onClick={() => onChange(!value)}
           className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors focus:ring-2 focus:ring-pink-400 focus:ring-offset-2 focus:ring-offset-gray-900 focus:outline-none ${
-            value ? 'bg-pink-500' : 'bg-gray-600'
+            value ? 'bg-pink-500' : 'bg-gray-300'
           }`}
           role="switch"
           aria-checked={value}
-          aria-label={`${value ? 'Desativar' : 'Ativar'} ${label}`}
+          aria-label={`${value ? 'Active' : 'Disable'} ${label}`}
         >
           <span
             className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${

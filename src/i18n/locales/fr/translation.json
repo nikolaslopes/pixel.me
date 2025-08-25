@@ -16,6 +16,7 @@
     "newImage": "Nouvelle Image",
     "pixelSize": "Taille des Pixels",
     "colorReduction": "Réduction des Couleurs",
+    "colorReductionValue": "couleurs",
     "brightness": "Luminosité",
     "contrast": "Contraste",
     "saturation": "Saturation",
