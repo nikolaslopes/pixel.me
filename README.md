@@ -74,6 +74,12 @@ pnpm dev
 5. **Open your browser:**
    Access http://localhost:3000 to see the result
 
+### 🤝 Contributing & Suggestions
+
+This is a project under development, and bugs may occur. If you find any issues or have suggestions to improve **pixel.me**, please feel free to open an **[Issue](https://github.com/nikolaslopes/pixelme/issues)**!
+
+All contributions are welcome.
+
 ---
 
 <p align="center">👾 Developed by <a href="https://github.com/nikolaslopes" target="_blank">@nikolaslopes</a><div>
