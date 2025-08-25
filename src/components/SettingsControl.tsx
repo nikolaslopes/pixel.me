@@ -25,7 +25,7 @@ export const SettingsControl: React.FC<SettingsControlProps> = ({
 }) => (
   <div>
     <Tooltip.Root>
-      <div className="mb-2 flex items-center gap-2">
+      <div className="mb-2 flex w-50 items-center gap-2">
         <label className="text-sm text-blue-200">{label}</label>
         <Tooltip.Trigger asChild>
           <button type="button" aria-label={`Help about ${label}`}>
