@@ -19,7 +19,9 @@ export const Header: React.FC = () => {
         </p>
       </div>
 
-      <div>{/* <LanguageSwitcher /> */}</div>
+      <div>
+        <LanguageSwitcher />
+      </div>
     </header>
   );
 };
