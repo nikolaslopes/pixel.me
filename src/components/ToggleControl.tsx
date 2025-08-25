@@ -45,7 +45,7 @@ export const ToggleControl: React.FC<ToggleControlProps> = ({
           }`}
           role="switch"
           aria-checked={value}
-          aria-label={`${value ? 'Desativar' : 'Ativar'} ${label}`}
+          aria-label={`${value ? 'Active' : 'Disable'} ${label}`}
         >
           <span
             className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
