@@ -14,6 +14,19 @@ const eslintConfig = [
     ignores: ['.next/**', 'node_modules/**', 'dist/**', 'build/**'],
   },
   ...compat.extends('next/core-web-vitals', 'next/typescript', 'prettier'),
+  {
+    rules: {
+      'import/extensions': [
+        'error',
+        'ignorePackages',
+        {
+          js: 'never',
+          ts: 'never',
+          tsx: 'never',
+        },
+      ],
+    },
+  },
 ];
 
 export default eslintConfig;
