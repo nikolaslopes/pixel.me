@@ -16,6 +16,7 @@
     "newImage": "新規画像",
     "pixelSize": "ピクセルサイズ",
     "colorReduction": "色数削減",
+    "colorReductionValue": "色",
     "brightness": "明るさ",
     "contrast": "コントラスト",
     "saturation": "彩度",

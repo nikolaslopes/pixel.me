@@ -40,7 +40,7 @@ export const SettingsAction: React.FC<SettingsActionsProps> = ({
           value={settings.colorReduction}
           min="4"
           max="64"
-          unit=" cores"
+          unit={`${' '}${getText('settings.colorReductionValue')}`}
           onChange={(value) => onSettingsChange('colorReduction', value)}
         />
 
