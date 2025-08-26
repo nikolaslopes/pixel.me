@@ -42,13 +42,13 @@ To get started with this project on your local machine, follow the steps below.
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/nikolaslopes/pixelme.git
+git clone https://github.com/nikolaslopes/pixel.me.git
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd pixelme
+cd pixel.me
 ```
 
 3. **Install the dependencies:**
@@ -76,7 +76,7 @@ pnpm dev
 
 ### 🤝 Contributing & Suggestions
 
-This is a project under development, and bugs may occur. If you find any issues or have suggestions to improve **pixel.me**, please feel free to open an **[Issue](https://github.com/nikolaslopes/pixelme/issues)**!
+This is a project under development, and bugs may occur. If you find any issues or have suggestions to improve **pixel.me**, please feel free to open an **[Issue](https://github.com/nikolaslopes/pixel.me/issues)**!
 
 All contributions are welcome.
 
