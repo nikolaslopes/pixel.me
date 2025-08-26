@@ -8,7 +8,7 @@
 
 ### 📖 About the Project
 
-The **pixel.me** is a web project to transform images into pixel art, that's all :D. The main idea is to use pure JavaScript to generate the image.
+The **pixel.me** is a web application to transform images into pixel art, that's all :D. The main idea is to use pure JavaScript to generate the image.
 
 ### ✨ Key Features
 
